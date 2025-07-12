@@ -12,7 +12,7 @@ public class Number4LargestPalindromeProduct
                 String numToString = Integer.toString(i*j);
                 char[] stringToCharArray = numToString.toCharArray();
                 int[] numberStore = new int[stringToCharArray.length];
-
+                //subtract by '0' to convert to int rather than comparing ascii values.
                 for(int k = 0; k < stringToCharArray.length; k++)
                 {
                     numberStore[k] = stringToCharArray[k];
