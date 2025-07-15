@@ -24,4 +24,4 @@ public class Number7_10001stPrime
         System.out.println("Number: " + currentNumber + " prime spot: " + primeCount);
     }
 
-}
+}//I didn't update primeChecker back to true and it caused so much trouble :*(.
